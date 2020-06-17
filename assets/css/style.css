@@ -1,0 +1,16 @@
+.raya-1{
+    width: 200px !important;
+    border-bottom: solid 10px #ffbd59;
+    height: 20px;
+}
+
+.raya-2{
+    width: 150px !important;
+    border-bottom: solid 10px #ffbd59;
+    height: 10px;
+}
+
+.admin{
+    background-color: #917244 !important;
+    border-radius: 10px !important;
+}

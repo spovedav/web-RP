@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Nosotros - Rafael Poveda</title>
+  <link rel="icon" type="image/png" href="assets/images/static/ico.png">
+  <!-- web fonts -->
+  <link href="//fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+  <!-- //web fonts -->
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="assets/css/jsRapCalendar.css">
+  <link rel="stylesheet" href="assets/css/whatsapp.css">
+
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/jquery-3.4.1.js"></script>
+  <script src="assets/js/jsRapCalendar.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#demo').jsRapCalendar({
+        week: 6,
+        onClick: function (y, m, d) {
+          //alert(y + '-' + m + '-' + d);
+          let fechaSelec =  d + '-' + m + '-' + y; 
+          document.getElementById("fecha").value = fechaSelec;
+        }
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+
+  <section class="w3l-bootstrap-header">
+    <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/static/logo.png" alt="Your logo" title="Logo-Rafel-Poveda" style="height:70px;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa fa-bars"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav-item" id="servicio">
+              <a class="nav-link" href="#"> Servicios</a>
+              <ul class="submeu">
+                <li class="nav-item"><a class="nav-link" href="services.html">Desarrollo Personal</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Desarrollo Empresarial</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section class="w3l-about-breadcrum">
+    <div class="breadcrum-bg">
+      <div class="container py-5">
+        <p><a href="index.html">Inicio</a> &nbsp; / &nbsp; Nosotros</p>
+      </div>
+    </div>
+  </section>
+  <!-- w3l-content-photo-5 -->
+  <div class="w3l-content-photo-5 py-5" id="about">
+    <div class="content-main pt-lg-5 pt-md-3 pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 content-photo">
+            <a href="#"><img src="assets/images/22.jpg" class="img-fluid" alt="content-photo"></a>
+          </div>
+          <div class="col-lg-7 content-left mt-lg-0 mt-5 pl-lg-5">
+            <h3>Failure Is The Condiment That Gives Sucess It'S Flavour</h3>
+            <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet non porro laboriosam rerum
+              fugiat quod ullam earum
+              dignissimos corporis, nemo provident nostrum, nihil culpa. Et corrupti sit hic amet, animi unde cumque
+              consequuntur omnis ad nihil optio
+              id eum qui, impedit deleniti? Veniam eum aspernatur incidunt? Doloremque, cum? Repellendus consectetur,
+              cupiditate tenetur provident
+              neque, quas, totam eveniet nisi eius veritatis ea maiores ducimus a reprehenderit minima magnam dicta!
+              Aliquam libero voluptatum facilis
+              dolorum architecto? Doloribus fuga voluptate voluptatem corporis rem! Culpa nam et accusamus beatae!</p>
+            <a href="services.html" class="btn-theme2 btn mt-lg-5 mt-4">About Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //w3l-content-photo-5 -->
+
+  <!--  //Habilidades section -->
+  <section class="w3l-about ">
+    <div class="skills-bars py-2">
+      <div class="container py-md-3">
+        <!--
+      <div class="heading text-center mx-auto">
+        <h3 class="head">Propósito</h3>
+        <p class="my-3 head"> Crear y desarrollar metodologías, herramientas y
+          programas de aprendizaje para el mundo
+          organizacional consiguiendo elevar niveles de
+          productividad y satisfacción tanto individual como
+          colectiva.
+        </p>
+        <br>
+        <h3 class="head">Misión</h3>
+        <p class="my-3 head"> Generar experiencias vivenciales para el aprendizaje
+          de las organizaciones.
+        </p>
+      </div>
+    -->
+
+
+        <h3 class="head">Habilidades</h3>
+        <div class="row mt-5 pt-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 skills-bar-grids mb-4 pb-2">
+            <h4>Alineación estratégica</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 50% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4  col-md-4 col-sm-6 skills-bar-grids mb-4 pb-2">
+            <h4>Excelencia en la atención al cliente</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 60% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  col-md-4 col-sm-6 skills-bar-grids mb-4 pb-2">
+            <h4>Ventas consultivas</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 70% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  col-md-4 col-sm-6 skills-bar-grids mb-4 pb-2">
+            <h4>Gestión del tiempo</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 90% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4  col-md-4 col-sm-6 skills-bar-grids mb-4 pb-2">
+            <h4>Conferencias motivacionales</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 90% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4  col-md-4 col-sm-6 skills-bar-grids mb-4 pb-2">
+            <h4>Talleres para el empoderamiento y motivación</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 90% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4  col-md-4 col-sm-6 skills-bar-grids mb-4 pb-2">
+            <h4>Desarrollo de inteligencia emocional y
+              Sensibilidad
+            </h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 90% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 skills-bar-grids ">
+            <h4>Team Building para le integración y sentido de
+              pertenencia
+            </h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 80% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 skills-bar-grids mb-4 pb-2">
+            <h4>Desarrollo de competencias para la
+              productividad de equipo
+            </h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-color" role="progressbar" style="width: 80% ;height:4px;"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <!--<img src="assets/images/Site.PNG" width="100%"  alt="info-imagen">-->
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- home page service grids -->
+  <section id="services-1" class="bg-light py-5">
+    <div class="conta iner py-lg-3">
+      <div class="heading text-center mx-auto">
+        <h3 class="head">Welcome To My Site</h3>
+        <p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          Nulla mollis dapibus nunc, ut rhoncus
+          turpis sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum primis in faucibus orci luctus et
+          ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+
+      </div>
+      <div class="row mt-lg-5">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="box-wrap">
+            <div class="icon">
+              <span class="fa fa-briefcase"></span>
+            </div>
+            <h4><a href="services.html">Want An Expert</a></h4>
+            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+              doloret quas saepe autem, dolor set.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="box-wrap">
+            <div class="icon">
+              <span class="fa fa-shield"></span>
+            </div>
+            <h4><a href="services.html">Unlimited Revisions</a></h4>
+            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+              doloret quas saepe autem, dolor set.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="box-wrap">
+            <div class="icon">
+              <span class="fa fa-dollar"></span>
+            </div>
+            <h4><a href="services.html">Let's Discuss</a></h4>
+            <p>Lorem ipsum dolor sit amet sed consectetur adipisicing elit.
+              doloret quas saepe autem, dolor set.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //home page service grids -->
+
+  <!-- specifications -->
+  <section class="w3l-specifications-9">
+    <div class="main-w3 py-5" id="stats">
+      <div class="container py-md-3">
+
+        <div class="main-cont-wthree-fea row ">
+          <div class="grids-speci1 col-lg-3 col-6">
+            <div class="spec-2 text-center">
+
+              <h3 class="title-spe">7242</h3>
+              <p>Hours of Works</p>
+            </div>
+          </div>
+          <div class="grids-speci1 midd-eff-spe col-lg-3 col-6">
+            <div class="spec-2 text-center">
+
+              <h3 class="title-spe">380</h3>
+              <p>Projects Done</p>
+            </div>
+          </div>
+          <div class="grids-speci1 las-but col-lg-3 col-6  mt-lg-0 mt-4">
+            <div class="spec-2 text-center">
+
+              <h3 class="title-spe">220</h3>
+              <p>Satisfied Customers</p>
+            </div>
+          </div>
+          <div class="grids-speci1 las-t col-lg-3 col-6  mt-lg-0 mt-4">
+            <div class="spec-2 text-center">
+
+              <h3 class="title-spe">24 </h3>
+              <p>Awards Winning</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- //specifications -->
+  </section>
+
+
+  <!-- comienzo de titulos y certificado -->
+  <section class="services-12" id="experience">
+    <div class="form-12-content">
+      <div class="container">
+        <div class="grid grid-column-2 ">
+
+          <div class="column1">
+            <h3 class="mb-5">Conferencista</h3>
+            <p class="my-3 text-white">Los temas de las conferencias que se han realizado son creadas y
+              adaptadas para las necesidades según el área que se quiera tratar,
+              cambiar y mejorar.</p>
+            <div class="experience-top">
+              <h5>El Primer Paso</h5>
+              <!--<h4>Fulltime Freelancer</h4>-->
+              <p class="my-3 text-white">Guía para generar cambios drásticos y permanentes en la vida</p>
+            </div>
+            <div class="experience-top">
+              <h5>Comunicación Asertiva con PNL</h5>
+              <!-- <h4>Creative Director at Pixar Studio</h4> -->
+              <p class="my-3 text-white">Como comunicarnos de manera eficiente.</p>
+            </div>
+            <div class="experience-top">
+              <h5>Liderazgo Empresarial</h5>
+              <!-- <h4>Web Designer at Microsoft</h4> -->
+              <p class="my-3 text-white">Que es ser un líder y como asimilarlo.</p>
+            </div>
+            <div class="experience-top">
+              <!-- <h5>Liderazgo Empresarial</h5> -->
+              <!-- <h4>Web Designer at Microsoft</h4> -->
+              <p class="my-3 text-white">Como aprovechar de manera positiva los puntos de inflexión
+                Que son y como identificarlos</p>
+            </div>
+            <div class="experience-top">
+              <h5>El poder de la mujer</h5>
+              <!-- <h4>Web Designer at Microsoft</h4> -->
+              <p class="my-3 text-white">Como superar retos del pasado, presente y futuro</p>
+            </div>
+            <hr class="raya-2">
+            <p class="text-white">
+              Independientemente del tema, la pnl me habilita para tratar y
+              profundizar en temas sensibles como miedos, bloqueos, conflictos
+              internos, abusos, patrones auto-destructivos, etc en relación a lo
+              personal de manera individual o grupal.</p>
+          </div>
+
+
+          <div class="column2">
+            <h3 class="mb-5">Talleres.</h3>
+            <p class="my-3 text-white">Los talleres los diseño en base a las necesidades que
+              requieren los interesados después de una consultoria para
+              determinar cuales son los puntos neuralgicos. .</p>
+            <div class="experience-top">
+              <h5>EL PRIMER PASO</h5>
+              <!-- <h4>Master of Design, University of California</h4> -->
+              <p class="my-3 text-white">Este taller esta diseñado para dotar a los participantes de
+                herramientas para mejorar o cambiar hábitos negativos o
+                tóxicos.
+              </p>
+              <p class="text-white"><strong>Duración:</strong> 8horas</p><br>
+              <p class="text-white"><strong>Duración:</strong> 8horas</p>
+            </div>
+            <div class="experience-top">
+              <h5>2007</h5>
+              <h4>Bachelor of Arts, Standford University</h4>
+              <p class="my-3 text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae.</p>
+            </div>
+            <div class="experience-top">
+              <h5>COMUNICACIÓN ASERTIVA</h5>
+              <!-- <h4>Specialize App Design, Harvard University</h4> -->
+              <p class="my-3 text-white">Este taller de 4 horas nos brinda la oportunidad de
+                descubrir y ser consciente de como funciona la
+                comunicación para que esta sea clara, concisa, eficiente.</p>
+            </div>
+            <div class="experience-top">
+              <h5>LIDERAZGO EMPRESARIAL</h5>
+              <!-- <h4>Specialize App Design, Harvard University</h4> -->
+              <p class="my-3 text-white">Ponencia poderosa que hace consciencia en el liderazgo
+                tanto personal como empresarial y asi poder influenciar y
+                motivar de manera positiva a los suyos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fin de titulos y certificado -->
+
+<!-- comiezo de sucriete 
+  <section class="w3l-subscribe" id="subscribe">
+    <div class="main-host py-5 text-center">
+      <div class="container py-lg-3">
+        <div class="grids-forms">
+
+          <div class="main-midd">
+            <h3 class="global-title mx-auto">Stay Up To Date, Subscribe To The Free Newsletter !</h3>
+          </div>
+          <div class="main-midd-2">
+            <form action="#" method="post" class="rightside-form">
+              <input type="email" name="email" placeholder="Enter your email">
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+  <!-- w3l-content-photo-5 -->
+  <div class="w3l-content-photo-5">
+    <div class="content-main pt-lg-5 pt-md-3 pb-0" id="agendar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 content-photo">
+
+            <div class="container">
+              <h1 class="text-white">Fecha para Agendar</h1>
+              <div id="demo"></div>
+              <span style="color: red !important;" >Se enviara un codigo al Email <span style="font-weight: 10px;" id="email_send"></span> propocionado</span>
+            </div>
+
+          </div>
+          <div class="col-lg-7 content-left">
+            <section class="w3l-contacts-12">
+              <div class="contact-top">
+                <div class="container py-md-3">
+
+                  <div class="row cont-main-top">
+                    <!-- contact form -->
+                    <div class="contacts12-main col-lg-12 ">
+
+                      <form action="" method="post" class="main-input">
+                        <div class="top-inputs d-grid">
+                          <input type="text" class="input-tranparente" placeholder="Nombre" name="nombre" id="nombre" required="">
+                        </div>
+                        <input type="email" class="input-tranparente" name="email" placeholder="Email" id="email" onchange="document.getElementById('email_send').innerHTML = this.value;" required="">
+                        
+                       <input type="text" class="mt-3 input-tranparente" placeholder="Telefono" name="tel" id="tel" required="">
+                       
+                       <input type="text" class="mt-3 input-tranparente" placeholder="Fecha" name="fecha" id="fecha" disabled required="" style="cursor: no-drop;">
+
+                        <textarea placeholder="Mensaje" name="mensaje" class="input-tranparente" id="mensaje" required=""></textarea>
+                        
+                        <div class="text-right">
+                          <button type="submit" class="btn btn-theme2">Agendar</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+          </div>
+          </section>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- grids block 5 -->
+  <section class="w3l-footer-29-main" id="footer">
+    <div class="footer-29 text-center">
+      <div class="container">
+
+        <div class="main-social-footer-29">
+
+          <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+          <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+          <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+          <a href="#google-plus" class="google-plus"><span class="fa fa-google-plus"></span></a>
+          <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+        </div>
+        <div class="bottom-copies text-center">
+          <!-- <p class="copy-footer-29">© 2020 Life. All rights reserved | Designed by <a -->
+          <!-- href="https://w3layouts.com">W3layouts</a></p> -->
+          <p class="copy-footer-29">© 2020 Rafael Poveda. Todos los Derechos Reservados | Creado por <a
+              href="https://www.startsoftnet.com.ec/" target="_black">Startsofnet</a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="fixed-tabs-Whats">
+      <div class="aba-whatsphone">
+          <div class="aba-whatsphone-icone">
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=593959282049">Contactanos <br><strong>por Whatsapp</strong></a>          
+          </div>
+      </div>          
+  </div>
+  
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+  </section>
+  <!-- // grids block 5 -->
+  <!--<script src="assets/js/jquery-3.3.1.min.js"></script>-->
+  <!-- //footer-28 block -->
+  </section>
+
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+
+
+  <!-- Smooth scrolling -->
+  <!-- calll -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</body>
+
+</html>
+<!-- // grids block 5 -->
